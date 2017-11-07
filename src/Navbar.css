@@ -1,0 +1,71 @@
+.app-header {
+  /* display: flex; */
+}
+
+.topmost-nav {
+  background-color: #F9F9F9;
+  color: #797979;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 35px 0 35px;
+  line-height: 1.2px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.app-title {
+  color: #D5AB9A;
+  text-align: left;
+}
+
+.links {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.link {
+  padding: 10px;
+  padding-top: 30px;
+  font-size: 12px;
+}
+
+.link-btn {
+  border: 1px solid #e6e6e6;
+}
+
+@media screen and (max-width: 1650px) {
+  .topmost-nav {
+    padding: 20px 35px 0 35px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .topmost-nav {
+    flex-direction: column;
+    justify-content: stretch;
+    font-size: 8px;
+    padding: 20px 0 0 0;
+  }
+  .app-title {
+    text-align: center;
+  }
+  .menu {
+    justify-content: stretch;
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+    align-content: stretch;
+  }
+}

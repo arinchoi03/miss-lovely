@@ -7,7 +7,7 @@ const WeeklySpecial = (props) => {
         <div className="special-image">
           <img className="image-square" src={ props.imageUrl } />
         </div>
-        <p>Pink Teddy</p>
+        <p>{props.title}</p>
         <p>$200</p>
         <button type="button" className="btn btn-default">SEE MORE</button>
       </div>

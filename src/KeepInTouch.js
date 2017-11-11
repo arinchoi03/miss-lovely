@@ -4,7 +4,7 @@ class KeepInTouch extends Component {
   render() {
     return (
       <div className="keep-in-touch col-md-3">
-        <h6>
+        <h6 className="misc-title">
           KEEP IN TOUCH
         </h6>
         <div className="item">

@@ -13,11 +13,12 @@
   width: 100vw;
   height: 60vh;
   padding: 0px 25px;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .special {
-  width: 23%;
+  width: 300px;
   height: 80%;
   background-color: white;
 }
@@ -25,8 +26,6 @@
 .special-image {
   width: 90%;
   height: 64%;
-  display: flex;
-  justify-content: center;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -35,8 +34,32 @@
   width: 100%;
 }
 
-/*@media screen and (max-width: 1000px) {
-  .special-panels {
-    flex-direction: column;
+@media screen and (max-width: 1300px) {
+  .weekly-specials {
+    height: 120vh;
+    justify-content: center;
   }
-}*/
+
+  .special-panels {
+    justify-content: space-around;
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .weekly-specials {
+    height: 120vh;
+  }
+
+  .special-panels {
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .weekly-specials {
+    height: 200vh;
+  }
+}

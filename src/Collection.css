@@ -18,3 +18,13 @@
   width: 50%;
   height: 100%;
 }
+
+@media screen and (max-width: 800px) {
+  .collection {
+    flex-direction: column;
+    height: 60vh;
+  }
+  .collection-left, .collection-right {
+    width: 100%;
+  }
+}

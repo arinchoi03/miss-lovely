@@ -26,7 +26,7 @@
 }
 
 .collection-right {
-  background-image: url(./images/rings-in-heart.jpeg);
+  background-image: url(./../images/rings-in-heart.jpeg);
   background-size: cover;
   background-position: center;
   width: 50%;

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navbar from './Navbar';
-import Carousel from './Carousel';
-import WeeklySpecials from './WeeklySpecials';
-import Collection from './Collection';
-import Misc from './Misc';
+import Navbar from './1-nav/Navbar';
+import Carousel from './2-carousel/Carousel';
+import WeeklySpecials from './3-weekly/WeeklySpecials';
+import Collection from './4-collection/Collection';
+import Misc from './5-misc/Misc';
 import Footer from './Footer';
 
 class App extends Component {

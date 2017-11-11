@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './WeeklySpecials.css';
-import purpleDiamond from './images/purple_diamond.png'
-import purpleGem from './images/purple_gem_ring.png'
-import blueStone from './images/blue_stone_necklace.png'
-import greenRing from './images/green_ring.png'
+import purpleDiamond from './../images/purple_diamond.png'
+import purpleGem from './../images/purple_gem_ring.png'
+import blueStone from './../images/blue_stone_necklace.png'
+import greenRing from './../images/green_ring.png'
 import Special from './WeeklySpecial'
 
 const titles = [

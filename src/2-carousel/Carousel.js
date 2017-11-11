@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Carousel.css';
-import carouselPic from "./images/lights.jpeg"
+import carouselPic from "./../images/lights.jpeg"
 
 class Carousel extends Component {
   render() {

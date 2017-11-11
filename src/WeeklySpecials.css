@@ -2,6 +2,8 @@
   font-family: 'Nunito', sans-serif;
   color: #797979;
   background-color: #F9F9F9;
+  font-size: 12px;
+  height: 70vh;
 }
 
 .weekly-title {
@@ -18,8 +20,7 @@
 }
 
 .special {
-  width: 300px;
-  height: 80%;
+  width: 22%;
   background-color: white;
 }
 
@@ -34,32 +35,67 @@
   width: 100%;
 }
 
+.btn-default {
+  font-size: 10px;
+}
+
 @media screen and (max-width: 1300px) {
   .weekly-specials {
-    height: 120vh;
+    height: 130vh;
     justify-content: center;
   }
 
   .special-panels {
-    justify-content: space-around;
-    width: 60%;
     margin: 0 auto;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
   .weekly-specials {
-    height: 120vh;
+    height: 70vh;
+    justify-content: space-between;
   }
 
   .special-panels {
-    justify-content: space-around;
     width: 100%;
+  }
+
+  .special {
+    margin-top: 10px;
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .weekly-specials {
-    height: 200vh;
+    justify-content: space-between;
+    height: 130vh;
+  }
+
+  .special-panels {
+    width: 100%;
+  }
+
+  .special {
+    width: 40%;
+    margin-top: 10px;
+  }
+  .special-image {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .weekly-specials {
+    height: 190vh;
+  }
+  .special-panels {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .special {
+    width: 90%;
   }
 }

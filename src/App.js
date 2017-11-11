@@ -5,6 +5,7 @@ import Carousel from './Carousel';
 import WeeklySpecials from './WeeklySpecials';
 import Collection from './Collection';
 import Misc from './Misc';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
         <WeeklySpecials />
         <Collection />
         <Misc />
+        <Footer />
       </div>
     );
   }

@@ -11,7 +11,7 @@
   font-weight: bold;
   display: flex;
   justify-content: space-between;
-  padding: 20px 35px 0 35px;
+  padding: 10px 35px;
   line-height: 1.2px;
 }
 
@@ -41,24 +41,49 @@
 }
 
 .link-btn {
-  border: 1px solid #e6e6e6;
+  border-left: 1px solid #e6e6e6;
 }
 
-@media screen and (max-width: 1650px) {
+@media screen and (max-width: 1460px) {
   .topmost-nav {
-    padding: 20px 35px 0 35px;
+    padding: 10px 35px;
+    width: 100vw;
+    line-height: 12px;
+  }
+  .top-bar-middle {
+    display: inline-block;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
+  .topmost-nav {
+    padding: 15px 35px 15px 35px;
+    width: 100vw;
+    line-height: 15px;
+  }
+  .top-bar-middle {
+    display: inline-block;
+  }
+  .links {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 680px) {
   .topmost-nav {
     flex-direction: column;
     justify-content: stretch;
     font-size: 8px;
-    padding: 20px 0 0 0;
   }
   .app-title {
     text-align: center;
+  }
+  .top-bar-middle {
+    display: unset;
   }
   .menu {
     justify-content: stretch;
@@ -67,5 +92,9 @@
   .links {
     flex-direction: column;
     align-content: stretch;
+  }
+  .link {
+    padding: 0;
+    border-bottom: 1px solid #e6e6e6;
   }
 }

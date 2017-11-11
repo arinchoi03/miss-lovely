@@ -8,14 +8,15 @@ class Navbar extends Component {
       <div>
         <header className="app-header">
           <div className="topmost-nav">
-            <div className="col-lg-3 col-md-12">
-              <p>Call Us +123 123 456 789</p>
+            <div className="col-lg-3 col-md-4 col-xs-12">
+              <span>Call Us +123 123 456 789</span>
             </div>
-            <div className="col-lg-6 col-md-12">
-              <p>Summer Sale! Get 10% off on your next order with code SUMMER17</p>
+            <div className="col-lg-6 col-md-4 col-xs-12">
+              <span className="top-bar-middle">Summer Sale! Get 10% off on</span>
+              <span className="top-bar-middle">your next order with code SUMMER17</span>
             </div>
-            <div className="col-lg-3 col-md-12">
-              <p>LOGIN | REGISTER</p>
+            <div className="col-lg-3 col-md-4 col-xs-12">
+              <span>LOGIN | REGISTER</span>
             </div>
           </div>
           <Menu />

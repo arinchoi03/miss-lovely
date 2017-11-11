@@ -1,0 +1,27 @@
+#main-carousel {
+  width: 100vw;
+  height: 50vh;
+}
+
+img {
+  max-height: 50vh;
+  width: 100vw;
+}
+
+li {
+  min-height: 10px;
+  max-width: 10px !important;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1160px) {
+  .carousel-caption {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 680px) {
+}

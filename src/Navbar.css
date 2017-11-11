@@ -35,13 +35,21 @@
 }
 
 .link {
-  padding: 10px;
-  padding-top: 30px;
+  padding: 26px 15px 0px 15px;
   font-size: 12px;
 }
 
 .link-btn {
   border-left: 1px solid #e6e6e6;
+}
+
+.fa-search {
+  color: #D5AB9A;
+  padding: 0px 10px;
+}
+
+.fa-user, .fa-shopping-cart {
+  padding-right: 5px;
 }
 
 @media screen and (max-width: 1460px) {

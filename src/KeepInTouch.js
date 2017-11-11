@@ -8,15 +8,15 @@ class KeepInTouch extends Component {
           KEEP IN TOUCH
         </h6>
         <div className="item">
-          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <i className="fa fa-map-marker" aria-hidden="true"></i>
           89 Sky Tower, NY
         </div>
         <div className="item">
-          <i class="fa fa-phone" aria-hidden="true"></i>
+          <i className="fa fa-phone" aria-hidden="true"></i>
           +123 123456 789
         </div>
         <div className="item">
-          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <i className="fa fa-envelope" aria-hidden="true"></i>
           contact@misslovely.com
         </div>
         <div className="buttons">

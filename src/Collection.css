@@ -10,6 +10,19 @@
 
 .collection-left {
   text-align: left;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 1.3px;
+}
+
+.collection-blurb {
+  margin-top: 20px;
+}
+
+.view-collection {
+  padding: 15px 20px;
+  background: #304F86;
+  border: 1px solid #656565;
 }
 
 .collection-right {
@@ -29,3 +42,4 @@
     width: 100%;
   }
 }
+

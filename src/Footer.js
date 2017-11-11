@@ -11,17 +11,24 @@ class Footer extends Component {
       , justifyContent: 'space-between'
       , fontSize: '8px'
       , alignText: 'left'
+      , left: '0'
+      , right: '0'
+      , bottom: '0'
+    }
+
+    const cardsStyle = {
+      width: '150px'
+      , alignSelf: 'center'
     }
 
     return (
       <div className="footer col-md-12" style={ footerStyle } >
-        <div className="col-md-6">
-          <span>2017 MeyersHolum Sample SCA Store. All Rights Reserved.</span>
-          <span>Implemented by MyersHolum.</span>
+        <div className="col-md-6" id="trademark">
+          <div>2017 MeyersHolum Sample SCA Store. All Rights Reserved.</div>
+          <div>Implemented by MyersHolum.</div>
         </div>
-        <div className="col-md-6">
-          Visa MS AMEX Discover
-        </div>
+        <div className="col-md-6" id="cards">
+        <img style={ cardsStyle } src="https://www.merchantequip.com/image/?logos=v|m|a|d&height=32" alt="Merchant Equipment Store Credit Card Logos"/>        </div>
       </div>
     );
   }

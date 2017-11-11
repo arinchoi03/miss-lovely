@@ -12,19 +12,19 @@ class Informational extends Component {
           { this.props.title }
         </h6>
         <div className="item">
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
           { this.props.items[0]}
         </div>
         <div className="item">
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
           { this.props.items[1]}
         </div>
         <div className="item">
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
           { this.props.items[2]}
         </div>
         <div className="item">
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+          <i className="fa fa-arrow-circle-right" aria-hidden="true"></i>
           { this.props.items[3]}
         </div>
       </div>

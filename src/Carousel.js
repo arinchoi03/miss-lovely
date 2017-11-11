@@ -16,13 +16,13 @@ class Carousel extends Component {
 
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active">
-              <img className="d-block img-fluid" src={ carouselPic } />
+              <img className="d-block img-fluid" src={ carouselPic } alt="First slide"/>
               <div className="carousel-caption d-md-block text-left">
                 <h3>GET READY FOR</h3>
                 <h3><strong>ROCK COLLECTION</strong></h3>
                 <h6>GLAMOUROUS, UNIQUE AND BEAUTIFUL PIECES</h6>
-                <button className="btn btn-primary">Learn more</button>
-              </div>
+                <button type="button" className="info-btn view-more">VIEW MORE</button>
+                </div>
             </div>
             <div className="carousel-item">
               <img className="d-block img-fluid" src="..." alt="Second slide"/>

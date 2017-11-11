@@ -14,8 +14,11 @@ class Navbar extends Component {
           <div className="link">FINE</div>
           <div className="link">GOLDEN</div>
           <div className="link">ALL</div>
-          <div className="link link-btn">search</div>
-          <div className="link link-btn">cart</div>
+          <div className="link link-btn"><i className="fa fa-search" aria-hidden="true"></i></div>
+          <div className="link link-btn">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <p>0 items</p>
+          </div>
         </div>
       </div>
     );

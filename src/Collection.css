@@ -1,0 +1,20 @@
+.collection {
+  font-family: 'Nunito', sans-serif;
+  color: #797979;
+  background-color: white;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collection-left {
+  text-align: left;
+}
+
+.collection-right {
+  background-image: url(./images/rings-in-heart.jpeg);
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+}

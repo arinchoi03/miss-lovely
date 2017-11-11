@@ -1,0 +1,42 @@
+.weekly-specials {
+  font-family: 'Nunito', sans-serif;
+  color: #797979;
+  background-color: #F9F9F9;
+}
+
+.weekly-title {
+  padding: 10px 0;
+}
+
+.special-panels {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  padding: 0px 25px;
+  justify-content: space-between;
+}
+
+.special {
+  width: 23%;
+  height: 80%;
+  background-color: white;
+}
+
+.special-image {
+  width: 90%;
+  height: 64%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.image-square {
+  width: 100%;
+}
+
+/*@media screen and (max-width: 1000px) {
+  .special-panels {
+    flex-direction: column;
+  }
+}*/

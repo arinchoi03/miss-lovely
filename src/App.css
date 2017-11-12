@@ -1,7 +1,11 @@
 .App {
   text-align: center;
   display: flex;
+  min-height: 100%;
   flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  padding-bottom: 10px;
 }
 
 .App-logo {
@@ -21,23 +25,22 @@
 .App-intro {
   font-size: large;
 }
-/*
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-} */
 
 .info-btn {
   border-radius: 28px;
   font-family: Arial;
   color: #ffffff;
   font-size: 12px;
+  font-weight: 100;
   padding: 5px 15px 5px 15px;
   text-decoration: none;
 }
 
 .footer {
   padding: 0px 15px;
+  position: relative;
+  bottom:0;
+  font-size: 8px;
 }
 
 #trademark {
@@ -46,4 +49,20 @@
 
 #cards {
   text-align: right;
+}
+
+.main-header {
+  color: #304F86;
+  font-weight: lighter;
+}
+
+.sub-header {
+  color: #304F86;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 416px) {
+  .footer {
+    font-size: 6px;
+  }
 }

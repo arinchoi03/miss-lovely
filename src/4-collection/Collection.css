@@ -1,6 +1,6 @@
 .collection {
-  font-family: 'Nunito', sans-serif;
-  color: #797979;
+  font-family: 'Open Sans', sans-serif;
+  color: #8a8989;
   background-color: white;
   width: 100vw;
   height: 40vh;
@@ -10,7 +10,7 @@
 
 .collection-left {
   text-align: left;
-  padding: 10px;
+  padding: 45px 10px 10px 45px;
   font-size: 12px;
   line-height: 1.3px;
 }

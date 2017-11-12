@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import './Carousel.css';
-import carouselPic from "./../images/lights.jpeg"
+import carouselPic from "./../images/cactus.jpeg"
 
 class Carousel extends Component {
   render() {
+    const blurb = {
+      color: '#797979'
+      , fontSize: '12px'
+      , fontWeight: '100'
+    }
     return (
       <div>
         <div id="main-carousel" className="carousel slide" data-ride="carousel">
@@ -18,9 +23,9 @@ class Carousel extends Component {
             <div className="carousel-item active">
               <img className="d-block img-fluid" src={ carouselPic } alt="First slide"/>
               <div className="carousel-caption d-md-block text-left">
-                <h3>GET READY FOR</h3>
-                <h3><strong>ROCK COLLECTION</strong></h3>
-                <h6>GLAMOUROUS, UNIQUE AND BEAUTIFUL PIECES</h6>
+                <h3 className="main-header">GET READY FOR</h3>
+                <h3 className="sub-header">ROCK COLLECTION</h3>
+                <p style={ blurb }>GLAMOUROUS, UNIQUE AND BEAUTIFUL PIECES</p>
                 <button type="button" className="info-btn view-more">VIEW MORE</button>
                 </div>
             </div>

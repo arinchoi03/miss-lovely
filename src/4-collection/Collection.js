@@ -6,8 +6,8 @@ class Collection extends Component {
     return (
       <div className="collection">
         <div className="collection-left">
-          <h4><strong>MISS LOVELY</strong></h4>
-          <h4>ROCK COLLECTION</h4>
+          <h4 className="sub-header">MISS LOVELY</h4>
+          <h4 className="main-header">ROCK COLLECTION</h4>
           <p className="collection-blurb">INCREDIBLE PIECES FOR EVERY OCCASSION, FIND</p>
           <p className="collection-blurb">OUT MORE ABOUT THESE AMAZING PRODUCTS</p>
           <button type="button" className="info-btn view-collection">VIEW COLLECTION</button>

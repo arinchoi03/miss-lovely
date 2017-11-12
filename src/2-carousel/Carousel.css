@@ -20,6 +20,10 @@ li {
   border: 1px solid #656565;
 }
 
+.img-fluid {
+  max-width: none;
+}
+
 @media screen and (max-width: 1160px) {
   .carousel-caption {
     margin-bottom: 0px;

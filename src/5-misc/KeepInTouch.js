@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class KeepInTouch extends Component {
   render() {
     return (
-      <div className="keep-in-touch col-md-3">
+      <div className="keep-in-touch misc-panel col-md-3">
         <h6 className="misc-title">
           KEEP IN TOUCH
         </h6>

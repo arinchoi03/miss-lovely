@@ -7,7 +7,7 @@ class Informational extends Component {
 
   render() {
     return (
-      <div className="informational col-md-3">
+      <div className="informational misc-panel col-md-3">
         <h6 className="misc-title">
           { this.props.title }
         </h6>

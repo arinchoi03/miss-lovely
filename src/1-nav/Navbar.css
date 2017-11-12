@@ -2,7 +2,8 @@
   background-color: #F9F9F9;
   color: #797979;
   border-bottom: 1px solid #e6e6e6;
-  font-size: 10px;
+  font-size: 8px;
+  font-weight: 600;
   font-family: 'Open Sans', sans-serif;
   display: flex;
   justify-content: space-between;

@@ -7,7 +7,12 @@
 }
 
 .weekly-title {
+  margin-top: 20px;
   padding: 10px 0;
+}
+
+h4 {
+  font-weight: lighter;
 }
 
 .special-panels {
@@ -39,13 +44,21 @@
 .see-more {
   font-size: 10px;
   padding: 10px 20px;
+  margin-bottom: 5px;
   background: white;
   color: #304F86;
   border: 1px solid #304F86;
 }
 
+.product-title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 .price {
-  color: #304F86
+  color: #304F86;
+  font-weight: 700;
+  margin-bottom: 5px;
 }
 
 @media screen and (orientation: portrait) and (max-width: 1440px) {

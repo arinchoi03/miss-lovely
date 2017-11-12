@@ -16,7 +16,7 @@ class Navbar extends Component {
           <div className="link">ALL</div>
           <div className="link link-btn"><i className="fa fa-search" aria-hidden="true"></i></div>
           <div className="link link-btn">
-            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <i className="fa fa-shopping-cart" aria-hidden="true"></i>
             <p>0 items</p>
           </div>
         </div>
